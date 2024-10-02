@@ -1,0 +1,113 @@
+* {
+    MARGIN: 0;
+    PADDING: 0;
+    BOX-SIZING: BORDER-BOX;
+}
+BODY{
+    FONT-FAMILY: ARIAL, SANS-SERIF;
+    LINE-HEIGHT: 1.6;
+    BACKGROUND: #F4F4F4;
+}
+HEADER{
+    BACKGROUND: #2c2c2c;
+    COLOR: #ce3489;
+    PADDING: 1REM 0;
+    TEXT-ALIGN: CENTER;
+}
+HEADER H1{
+    MARGIN-BOTTOM: 0.5REM; 
+}
+NAR UL {
+    LIST-STYLE: NONE;
+    PADDING: 0;
+}
+NAV UL LI{
+    DISPLAY: INLINE;
+    MARGIN: 0 10PX;
+}
+NAV UL LI A{
+    COLOR: #FFF;
+    text-decoration: NONE;
+    transition: COLOR 0.3S EASE;
+}
+NAV UL LI A:HOVER{
+    COLOR:  #ce3489;
+    CURSOR: POINTER;
+}
+SECTION{
+    PADDING: 2REM;
+    MARGIN: 1REM;
+    BACKGROUND: #ffF;
+    BORDER-RADIUS: 8PX;
+    BOX-SHADOW: 0 4PX 8PX BLACK;
+}
+.container{
+    MAX-WIDTH: 800PX;
+    MARGIN: 0 AUTO;
+}
+H2{
+    MARGIN-BOTTOM: 1REM;
+}
+.sobre-mim{
+    DISPLAY: FLEX;
+    ALIGN-ITEMS: CENTER;
+    GAP: 1REM;
+}
+.FOTO-PERFIL{
+    WIDTH: 120PX;
+    HEIGHT: 120PX;
+    BORDER-RADIUS: 50%;
+    OBJECT-FIT: COVER;
+    BORDER: 4PX SOLID  #ce3489;
+}
+.sobre-informacoes{
+    flex: 1;
+}
+.sobre-informacoes h2{
+    margin-bottom: 0.5rem;
+}
+.sobre-informacoes p{
+    font-size: 1rem;
+    color: #ce3489
+}
+.cards{
+    display: flex;
+    gap: 1rem;
+}
+.card{
+    background: #f4f4f4;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0 4px 8px  #333;
+    transition: transform 0,3s ease, box shadow 0.3 ease;
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px  #c0006a;
+}
+form{
+    display: grid;
+    gap: 1rem;
+}
+label{
+    font-weight: bold;
+}
+input, textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+button{
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 0.7rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+button:hover{
+    background:  #ce3489;
+}

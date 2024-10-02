@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Cadastro de Clientes e Treinadores</h1>
+    </header>
+    <main>
+        <form action="http://localhost:3000/Clientes/create" method="get">
+            <input type="text" name="cpf" placeholder="cpf" required>
+            <input type="text" name="nome" placeholder="nome" required>
+            <input type="text" name="sobrenome" placeholder="sobrenome" required>
+            <input type="text" name="altura" placeholder="altura" required>
+            <input type="text" name="peso" placeholder="peso" required>
+            <input type="text" name="endereco" placeholder="endereco" required>
+            <input type="date" name="nascimento" placeholder="nascimento" required>
+            <input type="submit" value="enviar" >
+        </form>
+        <form action="http://localhost:3000/Treinadores/create2" method="get">
+            <input type="text" name="cpf" placeholder="cpf" required>
+            <input type="text" name="nome" placeholder="nome" required>
+            <input type="text" name="sobrenome" placeholder="sobrenome" required>
+            <input type="text" name="formacao" placeholder="formacao" required>
+            <input type="text" name="endereco" placeholder="endereco" required>
+            <input type="date" name="nascimento" placeholder="nascimento" required>
+            <input type="submit" value="enviar" >
+        </form>
+    </main>
+    <footer>
+        <h2>Atividade Robson</h2>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados</title>
+    
+    <style>
+        body {
+            background-image: url('https://i.pinimg.com/564x/9d/c8/a6/9dc8a6743dafcfa79bd93d0394c479b7.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+                background-attachment: fixed;
+        }
+    </style>
+    <style>
+        button{
+        background-color: rgb(156, 156, 156);
+        border: none;
+        padding: 30px;
+        width: 50%;
+        border-radius: 20px;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+       }
+       button:hover{
+        background-color: rgba(63, 33, 16, 0.822);
+       }
+        input[type="submit"], input[type="reset"] {
+            padding: 10px 20px; 
+            font-size: 16px; 
+            border: 2px solid #000; 
+            cursor: pointer; 
+        }
+
+      
+        input[type="text"], textarea {
+            padding: 10px; 
+            font-size: 16px; 
+        }
+
+
+        form {
+            text-align: center; 
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="">
+
+        <center><legend><font  color= "white" size ="10px"><label for="nome">Nome:</label></font></legend>
+        <input size = "50px" type="text" id="nome" required/>
+        <br>
+        <br>
+        <legend><font color="white" size ="10px"><label for="email">E-mail:</label></font></legend>
+        <input size = "50px" type="text" id="email" required/>
+        <br>
+        <br>
+        <legend><font color="white" size ="10px"><label for="telefone">Telefone:</label></font></legend>
+        <input size = "50px" type="text" id="telefone" required/>
+        <br>
+        <br>
+        <legend><font color="white" size ="10px"><label for="descrição">Descrição:</label></font></legend>
+        <textarea size = "50px" id="info" required></textarea>
+        <br>
+        <h1><font color="white">Obrigado, e uma boa aventura!</h1></font>
+        <input type="submit"   valuefont="Cadastrar"/>
+        <input type="reset" value="Excluir"/></center>
+    </form> 
+    <br>
+    <div>
+        <center><a href = "home.html"><button onclick="Cadastrar()"><font face="Arial Rounded MT" color="black", size = "5px"><b>Voltar</b></font></button></a></center>
+    </div>
+</body>
+</html>
